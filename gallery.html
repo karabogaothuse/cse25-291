@@ -9,9 +9,28 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
-    <!-- Navbar (copy from about.html) -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold fs-3" href="index.html">
+                <span class="text-dark">Paradise</span> 
+                <span class="text-orange">Adventures</span> 
+                <span class="text-dark">Safaris</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-    <!-- Hero - PLACE YOUR GALLERY HERO IMAGE HERE -->
     <header class="hero d-flex align-items-center text-white" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/your-gallery-hero.jpg') center/cover no-repeat; min-height: 60vh;">
         <div class="container text-center">
             <h1 class="display-4 fw-bold">Gallery</h1>
@@ -21,21 +40,41 @@
     <section class="py-5">
         <div class="container">
             <div class="row g-4">
-                <!-- PLACE YOUR FIRST 3 PHOTOS HERE -->
                 <div class="col-md-4"><img src="images/your-gallery-1.jpg" alt="Safari 1" class="img-fluid rounded shadow"></div>
                 <div class="col-md-4"><img src="images/your-gallery-2.jpg" alt="Safari 2" class="img-fluid rounded shadow"></div>
                 <div class="col-md-4"><img src="images/your-gallery-3.jpg" alt="Safari 3" class="img-fluid rounded shadow"></div>
-                
-                <!-- ADD YOUR EXTRA 2 PHOTOS HERE (uncomment and change filenames) -->
+                <!-- Add your extra 2 pictures below (just replace the src) -->
                 <!-- <div class="col-md-4"><img src="images/your-gallery-4.jpg" alt="Safari 4" class="img-fluid rounded shadow"></div> -->
                 <!-- <div class="col-md-4"><img src="images/your-gallery-5.jpg" alt="Safari 5" class="img-fluid rounded shadow"></div> -->
             </div>
         </div>
     </section>
 
-    <!-- Footer (copy from about.html) -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5 class="fw-bold">Paradise Adventures Safaris</h5>
+                    <p>P.O. Box 46544<br>Gaborone, Botswana</p>
+                    <p><i class="fas fa-phone"></i> +267 71 701 910 / +267 310 4365</p>
+                    <p><i class="fas fa-envelope"></i> k.gaothuse@paradiseadventures.co.bw</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="services.html" class="text-white">Services</a></li>
+                        <li><a href="gallery.html" class="text-white">Gallery</a></li>
+                        <li><a href="contact.html" class="text-white">Book Now</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 text-md-end">
+                    <p>&copy; 2026 Paradise Adventures Safaris</p>
+                    <a href="#" class="text-white me-3"><i class="fab fa-facebook fa-2x"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
 
-    <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="script.js"></script>
 </body>
