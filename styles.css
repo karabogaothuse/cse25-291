@@ -1,0 +1,47 @@
+:root {
+    --orange: #FF7A00;
+}
+
+body {
+    font-family: 'Segoe UI', system-ui, sans-serif;
+}
+
+.text-orange { color: var(--orange) !important; }
+.btn-orange {
+    background-color: var(--orange);
+    color: white;
+    border: none;
+}
+.btn-orange:hover {
+    background-color: #e66c00;
+    color: white;
+}
+
+/* Navbar */
+.navbar {
+    background-color: rgba(255, 255, 255, 0.98);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.navbar-brand span {
+    font-family: 'Georgia', serif;
+}
+
+/* Hero */
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                url('https://picsum.photos/id/1015/1920/1080') center/cover no-repeat;
+    min-height: 100vh;
+    padding-top: 80px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+}
+
+/* Footer */
+footer a:hover {
+    color: var(--orange) !important;
+}
