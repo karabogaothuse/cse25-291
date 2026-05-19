@@ -64,6 +64,28 @@ body {
     object-fit: cover;
 }
 
+.service-card {
+    text-align: center;
+    overflow: hidden;
+    border: 0;
+}
+
+.service-image-button {
+    width: 100%;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    display: block;
+    cursor: pointer;
+}
+
+.service-img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     .hero h1 {
