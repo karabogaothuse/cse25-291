@@ -57,41 +57,11 @@ body {
     padding-top: 80px;
     z-index: 1;
 }
-
+/* forcing the images to fit */
 .gallery-img {
     width: 100%;
     height: 260px;
     object-fit: cover;
-}
-
-.service-card {
-    text-align: center;
-    overflow: hidden;
-}
-
-.service-image-button {
-    width: 100%;
-    padding: 0;
-    border: 0;
-    background: transparent;
-    cursor: pointer;
-}
-
-.service-img {
-    width: 100%;
-    height: 220px;
-    object-fit: cover;
-    transition: transform 0.2s ease;
-}
-
-.service-image-button:hover .service-img,
-.service-image-button:focus .service-img {
-    transform: scale(1.04);
-}
-
-.service-image-button:focus-visible {
-    outline: 3px solid var(--orange);
-    outline-offset: -3px;
 }
 
 /* Responsive */
