@@ -12,8 +12,8 @@
     <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
             <a class="navbar-brand fw-bold fs-3" href="index.html">
-                <span class="text-dark">Paradise</span> 
-                <span class="text-orange">Adventures</span> 
+                <span class="text-dark">Paradise</span>
+                <span class="text-orange">Adventures</span>
                 <span class="text-dark">Safaris</span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -41,7 +41,10 @@
         <div class="container">
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6">
-                    <div class="card h-100 shadow-sm text-center">
+                    <div class="card h-100 shadow-sm service-card">
+                        <button class="service-image-button" type="button" data-bs-toggle="modal" data-bs-target="#mokoroModal" aria-label="View Mokoro Excursion details">
+                            <img src="images/hu-chen-0LwfbRtQ-ac-unsplash.jpg" alt="Mokoro excursion waterways" class="card-img-top service-img">
+                        </button>
                         <div class="card-body">
                             <i class="fas fa-water fa-4x text-orange mb-3"></i>
                             <h4>Mokoro Excursion</h4>
@@ -50,16 +53,22 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <div class="card h-100 shadow-sm text-center">
+                    <div class="card h-100 shadow-sm service-card">
+                        <button class="service-image-button" type="button" data-bs-toggle="modal" data-bs-target="#birdModal" aria-label="View Bird Viewing details">
+                            <img src="images/sunset-trista-african-safari-kerdowney.jpg" alt="Birds at sunset" class="card-img-top service-img">
+                        </button>
                         <div class="card-body">
                             <i class="fas fa-binoculars fa-4x text-orange mb-3"></i>
                             <h4>Bird Viewing</h4>
-                            <p>Botswana is a birdwatcher’s paradise. Over 500 species await you with expert guides.</p>
+                            <p>Botswana is a birdwatcher's paradise. Over 500 species await you with expert guides.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <div class="card h-100 shadow-sm text-center">
+                    <div class="card h-100 shadow-sm service-card">
+                        <button class="service-image-button" type="button" data-bs-toggle="modal" data-bs-target="#boatModal" aria-label="View Boat Cruise details">
+                            <img src="images/damian-patkowski-T-LfvX-7IVg-unsplash.jpg" alt="Delta sunset landscape" class="card-img-top service-img">
+                        </button>
                         <div class="card-body">
                             <i class="fas fa-ship fa-4x text-orange mb-3"></i>
                             <h4>Boat Cruise</h4>
@@ -68,7 +77,10 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <div class="card h-100 shadow-sm text-center">
+                    <div class="card h-100 shadow-sm service-card">
+                        <button class="service-image-button" type="button" data-bs-toggle="modal" data-bs-target="#gameDriveModal" aria-label="View Game Drive details">
+                            <img src="images/redcharlie-nf7W_hn6DKQ-unsplash.jpg" alt="Elephants seen from a safari vehicle" class="card-img-top service-img">
+                        </button>
                         <div class="card-body">
                             <i class="fas fa-truck fa-4x text-orange mb-3"></i>
                             <h4>Game Drive</h4>
@@ -77,7 +89,10 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <div class="card h-100 shadow-sm text-center">
+                    <div class="card h-100 shadow-sm service-card">
+                        <button class="service-image-button" type="button" data-bs-toggle="modal" data-bs-target="#flightModal" aria-label="View Scenic Flight details">
+                            <img src="images/harshil-gudka-pU-9BYqjhyo-unsplash.jpg" alt="Wide safari landscape with giraffes" class="card-img-top service-img">
+                        </button>
                         <div class="card-body">
                             <i class="fas fa-plane fa-4x text-orange mb-3"></i>
                             <h4>Scenic Flight</h4>
@@ -86,7 +101,10 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <div class="card h-100 shadow-sm text-center">
+                    <div class="card h-100 shadow-sm service-card">
+                        <button class="service-image-button" type="button" data-bs-toggle="modal" data-bs-target="#campingModal" aria-label="View Camping details">
+                            <img src="images/meg-von-haartman-RtZUgho6x-s-unsplash.jpg" alt="Safari vehicle at sunset" class="card-img-top service-img">
+                        </button>
                         <div class="card-body">
                             <i class="fas fa-campground fa-4x text-orange mb-3"></i>
                             <h4>Camping</h4>
@@ -97,6 +115,102 @@
             </div>
         </div>
     </section>
+
+    <div class="modal fade" id="mokoroModal" tabindex="-1" aria-labelledby="mokoroModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="mokoroModalLabel">Mokoro Excursion</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p><strong>Price:</strong> From P850 per person</p>
+                    <p><strong>Location:</strong> Okavango Delta waterways</p>
+                    <p><strong>Safari guide:</strong> Senior mokoro poler</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="birdModal" tabindex="-1" aria-labelledby="birdModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="birdModalLabel">Bird Viewing</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p><strong>Price:</strong> From P650 per person</p>
+                    <p><strong>Location:</strong> Chobe River and Delta wetlands</p>
+                    <p><strong>Safari guide:</strong> Specialist birding guide</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="boatModal" tabindex="-1" aria-labelledby="boatModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="boatModalLabel">Boat Cruise</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p><strong>Price:</strong> From P750 per person</p>
+                    <p><strong>Location:</strong> Chobe River or Okavango channels</p>
+                    <p><strong>Safari guide:</strong> Licensed river guide</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="gameDriveModal" tabindex="-1" aria-labelledby="gameDriveModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="gameDriveModalLabel">Game Drive</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p><strong>Price:</strong> From P1,100 per person</p>
+                    <p><strong>Location:</strong> Moremi Game Reserve and Chobe National Park</p>
+                    <p><strong>Safari guide:</strong> Professional field guide</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="flightModal" tabindex="-1" aria-labelledby="flightModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="flightModalLabel">Scenic Flight</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p><strong>Price:</strong> From P2,500 per person</p>
+                    <p><strong>Location:</strong> Okavango Delta aerial route</p>
+                    <p><strong>Safari guide:</strong> Flight coordinator</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="campingModal" tabindex="-1" aria-labelledby="campingModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="campingModalLabel">Camping</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p><strong>Price:</strong> From P1,800 per person per night</p>
+                    <p><strong>Location:</strong> Mobile camps in Moremi and Khwai</p>
+                    <p><strong>Safari guide:</strong> Camp host and field guide</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <footer class="bg-dark text-white py-5">
         <div class="container">
@@ -124,6 +238,5 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="script.js"></script>
 </body>
 </html>
