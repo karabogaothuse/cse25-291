@@ -58,6 +58,12 @@ body {
     z-index: 1;
 }
 
+.gallery-img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     .hero h1 {
