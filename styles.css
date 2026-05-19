@@ -42,6 +42,18 @@ body {
 }
 
 /* Footer */
+footer {
+    overflow-wrap: anywhere;
+}
+
+footer .row {
+    row-gap: 2rem;
+}
+
+footer a {
+    display: inline-block;
+}
+
 footer a:hover {
     color: var(--orange) !important;
 }
